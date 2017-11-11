@@ -44,7 +44,7 @@ function list_files_console(folder)
         }
     });
 }
-
+// just a comment
 var target_folder = process.argv[2];
 if (typeof target_folder === "undefined"){
     target_folder = "./";
